@@ -3,7 +3,182 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<div class="container">
+    <div class="d-flex flex-column" id="Normandie">
+        <h2>Normandie <img style="width:48px" src="/images/ouest.png" /> <img style="width:48px" src="/images/pluie.png" /></h2>
+        <div class="card mb-3" style="max-width: 840px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/Plage Dragey-Ronthon La-manche-Normandie.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Plage Dragey-Ronthon</h5>
+                        <p class="card-text">Plage Dragey-Ronthon se classe 12 sur 18 des plages de Manche, située à 54.9 km de son centre, la ville de Saint-Lô.</p>
+                        <p class="card-text"><small class="text-body-secondary">La Manche, France</small></p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">
+                            + d'infos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 " style="max-width: 840px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/utah-beach La-manche Normandie.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Plage Utah Beach</h5>
+                        <p class="card-text">Première plage prise d’assaut par les Alliés au matin du 6 juin 1944, Utah Beach a été choisie pour établir une tête de pont dans le Cotentin afin de prendre la ville de Cherbourg et son port en eau profonde.</p>
+                        <p class="card-text"><small class="text-body-secondary">La Manche, France</small></p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">
+                            + d'infos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 840px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/Fort-mahon La somme Picardie.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Plage Fort-Mahon</h5>
+                        <p class="card-text">Commune située sur le littoral de la Manche et dotée d'une plage de sable et de massifs dunaires, Fort-Mahon-Plage attire en permanence de nombreux touristes, en particulier l'été et lors des grands week-ends.</p>
+                        <p class="card-text"><small class="text-body-secondary">La Somme, France</small></p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            + d'infos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="text-center">
-    <img
+    <!-- Modal Fort-Mahon : -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Plage Fort-Mahon Somme Picardie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="/images/Fort-mahon La somme Picardie.jpg" class="img-fluid rounded-start" alt="...">
+                <div class="modal-body d-flex justify-content-center">
+                <p>Commune située sur le littoral de la Manche et dotée d'une plage de sable et de massifs dunaires, Fort-Mahon-Plage attire en permanence de nombreux touristes, en particulier l'été et lors des grands week-ends. Grâce à des investissements et au fait qu'elle réponde entre autres à de nombreux critères de qualité environnementale, la commune est officiellement classée « station balnéaire » depuis 2007.</p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Carte
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <!--Google map-->
+                                <div id="map-container-google-2" class="z-depth-1-half map-container d-flex justify-content-center" style="">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10185.822996441435!2d1.5552688!3d50.3394044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddde06adaaed1d%3A0x5725d6696bbdfb78!2sPlage%20de%20Fort-Mahon!5e0!3m2!1sfr!2sfr!4v1686222367279!5m2!1sfr!2sfr" width="470" height="450"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">X Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Utah Beach : -->
+    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Plage Utah Beach La manche Normandie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="/images/utah-beach La-manche Normandie.jpg" class="img-fluid rounded-start" alt="...">
+                <div class="modal-body d-flex justify-content-center">
+                    <p>
+                        Première plage prise d’assaut par les Alliés au matin du 6 juin 1944, Utah Beach a été choisie pour établir une tête de pont dans le Cotentin afin de prendre la ville de Cherbourg et son port en eau profonde.
+                        A la fin de la journée, plus de 23 000 soldats américains ont débarqué pour livrer un combat titanesque et libérer la France.
+                        Le musée du Débarquement de Utah Beach préserve, aujourd’hui, la mémoire de ces hommes.
+                    </p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Carte
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <!--Google map-->
+                                <div id="map-container-google-2" class="z-depth-1-half map-container d-flex justify-content-center" style="">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20762.045802275727!2d-1.2028962775848955!3d49.422979185955306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480b76ebe89d3e27%3A0xe53e63a911e7f4e2!2sUtah%20Beach!5e0!3m2!1sfr!2sfr!4v1686229613328!5m2!1sfr!2sfr" width="470" height="450"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">X Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Dragey-Ronthon : -->
+    <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Plage Dragey-Ronthon Normandie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="/images/Plage Dragey-Ronthon La-manche-Normandie.png" class="img-fluid rounded-start" alt="...">
+                <div class="modal-body d-flex justify-content-center">
+                    <p>
+                        Plage Dragey-Ronthon se classe 12 sur 18 des plages de Manche, située à 54.9 km de son centre, la ville de Saint-Lô. C'est l'une des plages de la commune de Dragey-Ronthon à seulement 1.5 km de son centre. La plage se trouve dans un lieu naturel.
+                        Il s'agit d'un avec, l'eau de mer est turquoise et sable clair, donc il n'y a pas besoin de chaussures spéciales. l'entrée dans l'eau a une netteté normale Cette plage convient à différentes catégories de personnes, voyageurs solitaires, amateurs de séjours détente, propriétaires d'animaux domestiques et bien d'autres. Le seul problème, il est partiellement bondé pendant la haute saison.
+                        Toute la côte de Plage Dragey-Ronthon est accessible à tous. C'est une plage équipée, la liste de ses infrastructures comprend, café-bar. .
+                        En plus de la baignade et des séances de bronzage, vous pouvez également participer à d'autres activités. Il est certain que cette plage convient aux amateurs de kite et de planche à voile.
+                        L'accès à la plage est pratique, la distance de la route est de moins de 500 mètres. Un parking est situé à proximité immédiate.
+                    </p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Carte
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <!--Google map-->
+                                <div id="map-container-google-2" class="z-depth-1-half map-container d-flex justify-content-center" style="">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42115.93911137581!2d-1.5311801925416777!3d48.7198872334196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480c020d59c7321f%3A0x40c14484fb97c50!2sDragey-Ronthon!5e0!3m2!1sfr!2sfr!4v1686230929499!5m2!1sfr!2sfr" width="470" height="450"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">X Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
