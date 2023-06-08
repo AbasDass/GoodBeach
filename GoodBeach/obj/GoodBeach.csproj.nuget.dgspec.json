@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mayba\\Documents\\Dotnet\\GoodBeach\\GoodBeach\\GoodBeach.csproj": {}
+    "C:\\Users\\Mayba\\Source\\Repos\\GoodBeach\\GoodBeach\\GoodBeach.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mayba\\Documents\\Dotnet\\GoodBeach\\GoodBeach\\GoodBeach.csproj": {
+    "C:\\Users\\Mayba\\Source\\Repos\\GoodBeach\\GoodBeach\\GoodBeach.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mayba\\Documents\\Dotnet\\GoodBeach\\GoodBeach\\GoodBeach.csproj",
+        "projectUniqueName": "C:\\Users\\Mayba\\Source\\Repos\\GoodBeach\\GoodBeach\\GoodBeach.csproj",
         "projectName": "GoodBeach",
-        "projectPath": "C:\\Users\\Mayba\\Documents\\Dotnet\\GoodBeach\\GoodBeach\\GoodBeach.csproj",
+        "projectPath": "C:\\Users\\Mayba\\Source\\Repos\\GoodBeach\\GoodBeach\\GoodBeach.csproj",
         "packagesPath": "C:\\Users\\Mayba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mayba\\Documents\\Dotnet\\GoodBeach\\GoodBeach\\obj\\",
+        "outputPath": "C:\\Users\\Mayba\\Source\\Repos\\GoodBeach\\GoodBeach\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
